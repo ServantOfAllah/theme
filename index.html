@@ -325,6 +325,166 @@
             </div>
         </section>
         
+        <section class="section-form">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" email="name" id="email" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select>
+                                <option value="friends">Friends</option>
+                                <option value="online" selected>Online</option>
+                                <option value="search">Search Engine</option>
+                                <option value="advert">Advertisment</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Newsletter?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked>yes
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" name="submit" value="send">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+        </section>
+        
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">iOS App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="row">
+                <p> Copyright &copy; 2017 By abdulmajid. All rights reserved </p>
+            </div>
+        </footer>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        <script>
+//            var yearsBorn = [1990, 2000, 1997, 1991];
+//            var ages = [];
+//
+//            for(var i=0; i<yearsBorn.length; i++){
+//                ages.push(2016 - yearsBorn[i]);
+//            }
+//            console.log("empty array: " + ages);
+//            
+//            for(var i=0; i<ages.length; i++){
+//                if(ages[i] >= 18){
+//                    console.log("This person is of full age " + ages[i]);
+//                }else{
+//                    console.log("This person is not of full age " + ages[i]);
+//                }
+//            }
+            
+            var yearsBorn = [1990, 2000, 1997, 1991];
+            
+            function printFullAge(years){
+                var ages = [];
+                var fullAge = [];
+
+                for(var i=0; i<years.length; i++){
+                    ages.push(2016 - yearsBorn[i]);
+                }
+
+                for(var i=0; i<ages.length; i++){
+                    if(ages[i] >= 18){
+                        console.log("This person is of full age " + ages[i]);
+                        fullAge.push(true);
+                    }else{
+                        console.log("This person is not of full age " + ages[i]);
+                        fullAge.push(false);
+                    }
+                }
+                return fullAge;
+            }
+            var full_1 = printFullAge(yearsBorn);
+            
+            
+        </script>
+
+        
+        
+        
         
     </body>
 </html>
